@@ -1,0 +1,39 @@
+{
+  "name": "atucha-tour-v4",
+  "version": "0.2.0",
+  "private": true,
+  "engines": {
+    "node": ">=22 <23"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "postinstall": "node scripts/copy-decoders.mjs"
+  },
+  "dependencies": {
+    "next": "15.0.3",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "three": "0.168.0",
+    "@react-three/fiber": "9.0.0",
+    "@react-three/drei": "10.0.0",
+    "three-stdlib": "2.29.5",
+    "@react-three/postprocessing": "3.0.4",
+    "postprocessing": "6.37.7",
+    "@react-three/xr": "6.3.0",
+    "zustand": "4.5.5",
+    "clsx": "2.1.1",
+    "lucide-react": "0.460.0"
+  },
+  "devDependencies": {
+    "typescript": "5.6.3",
+    "eslint": "9.9.0",
+    "eslint-config-next": "15.0.3",
+    "tailwindcss": "3.4.10",
+    "postcss": "8.4.45",
+    "autoprefixer": "10.4.20"
+  }
+}
